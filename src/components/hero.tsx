@@ -92,7 +92,7 @@ const Hero = () => {
           <div className="content">
             <div className="hidden space-y-5 md:block">
               <p>Relaxed. Tropical. Inviting.</p>
-              <p className="subtitle">
+              <p className="subtitle text-center">
                 Sip the Spirit <br /> of Summer
               </p>
             </div>

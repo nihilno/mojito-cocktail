@@ -24,7 +24,7 @@ function Navbar() {
   }, []);
 
   return (
-    <nav>
+    <nav className="md:py-6">
       <div>
         <a href="#home" className="flex items-center gap-2">
           <img src="/images/logo.png" alt="Logo" />
