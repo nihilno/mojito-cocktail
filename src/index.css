@@ -128,14 +128,14 @@ body {
         }
 
         .view-cocktails {
-          @apply w-full space-y-5 text-lg md:max-w-xs lg:max-w-2xs;
+          @apply flex w-full flex-col items-center space-y-5 text-lg md:max-w-xs lg:max-w-2xs;
 
           p {
-            @apply text-center;
+            @apply text-left;
           }
 
           a {
-            @apply hover:text-yellow text-center font-semibold opacity-80 2xl:text-start;
+            @apply hover:text-yellow text-center font-semibold opacity-80 lg:self-start 2xl:text-start;
           }
         }
       }
