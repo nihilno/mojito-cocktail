@@ -198,7 +198,7 @@ body {
     @apply container mx-auto min-h-screen px-5 py-28 2xl:px-0;
 
     .content {
-      @apply grid grid-cols-1 gap-5 lg:grid-cols-12;
+      @apply grid grid-cols-1 gap-5 md:grid-cols-12;
 
       h2 {
         @apply font-modern-negra max-w-lg text-5xl md:text-6xl;

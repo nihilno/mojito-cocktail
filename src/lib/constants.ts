@@ -1,7 +1,7 @@
 export const navLinks = [
   { title: "Cocktails", id: "#cocktails" },
   { title: "About Us", id: "#about" },
-  { title: "The Art", id: "#work" },
+  { title: "The Art", id: "#art" },
   { title: "Contact", id: "#contact" },
 ];
 
@@ -59,6 +59,20 @@ export const mocktailLists = [
   },
 ];
 
+export const goodLists = [
+  "Handpicked ingredients",
+  "Signature techniques",
+  "Bartending artistry in action",
+  "Freshly muddled flavors",
+];
+
+export const featureLists = [
+  "Perfectly balanced blends",
+  "Garnished to perfection",
+  "Ice-cold every time",
+  "Expertly shaken & stirred",
+];
+
 // const profileLists = [
 //  {
 // 	imgPath: "/images/profile1.png",
@@ -72,20 +86,6 @@ export const mocktailLists = [
 //  {
 // 	imgPath: "/images/profile4.png",
 //  },
-// ];
-
-// const featureLists = [
-//  "Perfectly balanced blends",
-//  "Garnished to perfection",
-//  "Ice-cold every time",
-//  "Expertly shaken & stirred",
-// ];
-
-// const goodLists = [
-//  "Handpicked ingredients",
-//  "Signature techniques",
-//  "Bartending artistry in action",
-//  "Freshly muddled flavors",
 // ];
 
 // const storeInfo = {

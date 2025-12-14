@@ -62,7 +62,7 @@ function AboutUs() {
         </div>
       </div>
       <div className="top-grid">
-        <div className="md:col-span-3">
+        <div className="md:col-span-4">
           <div className="noisy" />
           <img src="images/abt1.png" alt="Grid image 1" />
         </div>
