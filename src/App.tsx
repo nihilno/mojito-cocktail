@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
+import AboutUs from "./components/about-us";
 import Cocktails from "./components/cocktails";
 import Hero from "./components/hero";
 import Navbar from "./components/navbar";
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Cocktails />
+      <AboutUs />
     </main>
   );
 }

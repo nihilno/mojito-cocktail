@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <nav className="md:py-6">
       <div>
-        <a href="#home" className="flex items-center gap-2">
+        <a href="#hero" className="flex items-center gap-2">
           <img src="/images/logo.png" alt="Logo" />
           <p>Lazy Lagoon</p>
         </a>
@@ -35,7 +35,10 @@ function Navbar() {
           {navLinks.map((link) => (
             <li key={link.id}>
               {
-                <a className="capitalize" href={link.id}>
+                <a
+                  className="capitalize transition-colors hover:text-yellow-500"
+                  href={link.id}
+                >
                   {link.title}
                 </a>
               }

@@ -1,8 +1,8 @@
 export const navLinks = [
-  { title: "Cocktails", id: "cocktails" },
-  { title: "About Us", id: "about" },
-  { title: "The Art", id: "work" },
-  { title: "Contact", id: "contact" },
+  { title: "Cocktails", id: "#cocktails" },
+  { title: "About Us", id: "#about" },
+  { title: "The Art", id: "#work" },
+  { title: "Contact", id: "#contact" },
 ];
 
 export const cocktailLists = [
