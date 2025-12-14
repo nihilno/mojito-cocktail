@@ -55,20 +55,13 @@ function Menu() {
 
   return (
     <section id="menu" aria-labelledby="menu-heading">
-      <img
-        src="/images/slider-left-leaf.png"
-        alt="Left Leaf"
-        className="absolute bottom-0 left-0 w-[25vw] max-w-80"
-      />
-      <img
-        src="/images/slider-right-leaf.png"
-        alt="Right Leaf"
-        className="absolute top-0 right-0 w-[20vw] max-w-80"
-      />
       <h2 id="menu-heading" className="sr-only">
         Cocktail Menu
       </h2>
 
+      <h1 className="font-modern-negra grid -translate-y-10 place-items-center text-5xl">
+        Products
+      </h1>
       <nav className="cocktail-tabs" aria-label="Cocktail Navigation">
         {sliderLists.map((listItem, index) => {
           const isActive = index === currentIndex;

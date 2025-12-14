@@ -200,10 +200,6 @@ body {
     .content {
       @apply grid grid-cols-1 gap-5 md:grid-cols-12;
 
-      h2 {
-        @apply font-modern-negra max-w-lg text-5xl md:text-6xl;
-      }
-
       .sub-content {
         @apply flex flex-col justify-between space-y-5 md:col-span-4;
 

@@ -5,7 +5,7 @@ import { openingHours, socials } from "../lib/constants";
 
 function Contact() {
   useGSAP(() => {
-    const titleSplitted = SplitText.create(".content h2", { type: "words" });
+    const titleSplitted = new SplitText(".content h2", { type: "words" });
     const contactTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "#contact",
@@ -24,36 +24,11 @@ function Contact() {
         opacity: 0,
         yPercent: 100,
         stagger: 0.02,
-      })
-      .to("#f-right-leaf", {
-        y: -50,
-        duration: 1,
-        ease: "power1.inOut",
-      })
-      .to(
-        "#f-left-leaf",
-        {
-          y: -50,
-          duration: 1,
-          ease: "power1.inOut",
-        },
-        "<",
-      );
+      });
   }, []);
 
   return (
     <footer id="contact">
-      <img
-        src="/images/footer-right-leaf.png"
-        alt="Leaf Right"
-        id="f-right-leaf"
-      />
-      <img
-        src="/images/footer-left-leaf.png"
-        alt="Leaf Left"
-        id="f-left-leaf"
-      />
-
       <div className="content">
         <h2>Where to Find Us</h2>
         <div>

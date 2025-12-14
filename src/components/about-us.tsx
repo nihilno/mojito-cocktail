@@ -4,7 +4,7 @@ import { SplitText } from "gsap/all";
 
 function AboutUs() {
   useGSAP(() => {
-    const titleSplit = SplitText.create("#about h2", { type: "words" });
+    const tilteSplitted = new SplitText("#about h3", { type: "words" });
     const aboutTimeline = gsap.timeline({
       scrollTrigger: {
         trigger: "#about",
@@ -13,7 +13,7 @@ function AboutUs() {
     });
 
     aboutTimeline
-      .from(titleSplit.words, {
+      .from(tilteSplitted.words, {
         opacity: 0,
         duration: 1,
         stagger: 0.02,
@@ -38,11 +38,11 @@ function AboutUs() {
         <div className="content">
           <div className="md:col-span-8">
             <p className="badge">Best Cocktails</p>
-            <h2>
+            <h3 className="font-modern-negra max-w-lg text-5xl md:text-6xl">
               Where every detail matters
               <span className="text-white"> &mdash; </span>from muddle to
               garnish
-            </h2>
+            </h3>
           </div>
           <div className="sub-content">
             <p>

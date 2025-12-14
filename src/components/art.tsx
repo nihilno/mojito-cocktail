@@ -48,7 +48,7 @@ function Art() {
       <div className="container mx-auto h-full pt-20">
         <h2 className="will-fade -translate-y-15 md:translate-0">The ART</h2>
         <div className="content">
-          <ul className="will-fade space-y-4">
+          <ul className="will-fade flex flex-col items-center gap-4 md:items-baseline">
             {goodLists.map((listItem, index) => (
               <li key={index} className="flex items-center gap-2">
                 <img src="/images/check.png" alt="Check" />
@@ -65,11 +65,11 @@ function Art() {
             />
           </div>
 
-          <ul className="will-fade space-y-4">
+          <ul className="will-fade flex flex-col items-center gap-4 md:items-baseline">
             {featureLists.map((listItem, index) => (
-              <li key={index} className="flex items-center justify-start gap-2">
+              <li key={index} className="flex items-center gap-2">
                 <img src="/images/check.png" alt="Check" />
-                <p className="w-60 md:w-fit">{listItem}</p>
+                <p className="md:w-fit">{listItem}</p>
               </li>
             ))}
           </ul>
