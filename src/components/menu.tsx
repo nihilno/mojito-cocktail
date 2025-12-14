@@ -58,13 +58,11 @@ function Menu() {
       <img
         src="/images/slider-left-leaf.png"
         alt="Left Leaf"
-        id="m-left-leaf"
         className="absolute bottom-0 left-0 w-[25vw] max-w-80"
       />
       <img
         src="/images/slider-right-leaf.png"
         alt="Right Leaf"
-        id="m-right-leaf"
         className="absolute top-0 right-0 w-[20vw] max-w-80"
       />
       <h2 id="menu-heading" className="sr-only">
