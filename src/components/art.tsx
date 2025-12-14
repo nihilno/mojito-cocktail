@@ -46,7 +46,7 @@ function Art() {
   return (
     <div id="art">
       <div className="container mx-auto h-full pt-20">
-        <h2 className="will-fade -translate-y-15 md:-translate-0">The ART</h2>
+        <h2 className="will-fade -translate-y-15 md:translate-0">The ART</h2>
         <div className="content">
           <ul className="will-fade space-y-4">
             {goodLists.map((listItem, index) => (

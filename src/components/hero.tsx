@@ -77,12 +77,12 @@ const Hero = () => {
 
         <img
           src="/images/hero-left-leaf.png"
-          alt="Left leaf"
+          alt="Left Leaf"
           className="left-leaf"
         />
         <img
           src="/images/hero-right-leaf.png"
-          alt="Right leaf"
+          alt="Right Leaf"
           className="right-leaf"
         />
 

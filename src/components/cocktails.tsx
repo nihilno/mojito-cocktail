@@ -22,12 +22,12 @@ function Cocktails() {
     <section id="cocktails" className="noisy">
       <img
         src="/images/cocktail-left-leaf.png"
-        alt="Left leaf"
+        alt="Left Leaf"
         id="c-left-leaf"
       />
       <img
         src="/images/cocktail-right-leaf.png"
-        alt="Right leaf"
+        alt="Right Leaf"
         id="c-right-leaf"
       />
 
